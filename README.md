@@ -17,14 +17,16 @@ End the program.
 ```
 #Program to find the inverse of a matrix.
 #Developed by: DINESH R
-#RegisterNumber: 212224240037
+#RegisterNumber:212224240037
+
 import numpy as np
-A = [[6,2,3],[3,1,1],[10,3,4]]
-B = np.linalg.inv(A)
-print(B)
+a=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
+c=np.linalg.inv(a)
+print(c)
 ```
 ## Output:
-![Screenshot 2023-12-24 220723](https://github.com/gauthamkrishna7/INVERSE-OF-A-MATRIX/assets/141175025/bf294d0d-5b21-4ce7-88d4-5cca719a29c2)
+![image](https://github.com/user-attachments/assets/c0c99133-b229-4457-a3d1-14f5c1e071e3)
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
